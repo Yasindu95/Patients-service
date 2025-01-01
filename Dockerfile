@@ -1,5 +1,5 @@
 FROM python:3.9
 
-ADD Patients-service.py .
+ADD patientService.py .
 
-CMD ["python", "./Patients-service.py"]
+CMD ["python", "./patientService.py"]
